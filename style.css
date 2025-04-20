@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    padding: 10px;;
+}
+
+#btn{
+    border-radius: 10px;
+}
+
+#subbtn{
+    border:none;
+    border-radius: 12px; 
+    background-color: black; 
+    color:white;
+    padding:10px;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+input{
+    width: 250px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+    
+
+#id{
+      border-radius: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="return validateForm()">
+        <table border="1">
+            <tr>
+                <th> <label>Name:</label></th>
+                <td><input type="text" id="nam"></td>
+            </tr>
+            <tr>
+                <th> <label>Email:</label></th>
+                <td> <input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label>password:</label></th>
+                <td><input type="password" id="pwd"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center; ">
+                    <button type="submit" id="subbtn">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
